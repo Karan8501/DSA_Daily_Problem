@@ -26,3 +26,4 @@
 // // unian type which holds more tahn one type 
 // let rest:string|number;
 // rest = "karan"
+
