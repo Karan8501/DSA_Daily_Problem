@@ -55,7 +55,7 @@ const addAll = (a:number,b:number,c?:number):number=>{
 }
 
 // default value 
-const sumAll = (a:number,b:number,c:number=2):number=>{
+const sumAll = (a:number=10,b:number,c:number=2):number=>{
 
  
         return a+b+c;
@@ -66,3 +66,8 @@ const sumAll = (a:number,b:number,c:number=2):number=>{
 logMsg(addAll(1,2,3));
 logMsg(addAll(1,2));
 logMsg(sumAll(1,2));
+logMsg(sumAll(undefined,2));
+
+
+
+

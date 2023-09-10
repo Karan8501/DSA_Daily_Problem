@@ -28,9 +28,10 @@ const addAll = (a, b, c) => {
     return a + b;
 };
 // default value 
-const sumAll = (a, b, c = 2) => {
+const sumAll = (a = 10, b, c = 2) => {
     return a + b + c;
 };
 logMsg(addAll(1, 2, 3));
 logMsg(addAll(1, 2));
 logMsg(sumAll(1, 2));
+logMsg(sumAll(undefined, 2));
