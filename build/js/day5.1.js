@@ -103,4 +103,4 @@ myBand.data = ["karan", "hello"];
 console.log(myBand.data);
 myBand.data = [...myBand.data, "zz top"];
 console.log(myBand.data);
-myBand.data = "val Halen";
+// myBand.data = "val Halen"
